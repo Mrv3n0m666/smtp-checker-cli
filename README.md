@@ -53,5 +53,6 @@
 Untuk memeriksa status server SMTP, jalankan perintah berikut:
 ```bash
 python -m smtp_checker.cli --server smtp.example.com --port 587 --username user@example.com --password yourpassword
+```
 
 [![Built for TEA](https://img.shields.io/badge/Built%20for-TEA.xyz-blue)](https://www.tea.xyz/)
