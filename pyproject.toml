@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smtp-checker-cli"
+version = "0.1.0"
+description = "Simple CLI tool to test SMTP servers."
+authors = [
+    {name = "Nama Kamu", email = "emailkamu@example.com"}
+]
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+smtp-checker = "smtp_checker.cli:main"
