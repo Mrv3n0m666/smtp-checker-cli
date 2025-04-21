@@ -1,0 +1,7 @@
+project:
+  name: smtp-checker-cli
+  description: Simple CLI to check SMTP server connectivity and response
+  maintainers:
+    - github: Mrv3n0m666
+  license: MIT
+  homepage: https://github.com/Mrv3n0m666/smtp-checker-cli
